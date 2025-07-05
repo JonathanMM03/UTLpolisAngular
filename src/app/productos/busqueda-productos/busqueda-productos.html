@@ -1,0 +1,9 @@
+<div class="filtro-container">
+    <input type="text" [(ngModel)]="nombreFiltro" placeholder="Buscar por nombre..." class="form-control mb-2" />
+
+    <select [(ngModel)]="categoriaFiltro" class="form-select">
+        <option *ngFor="let cat of categorias" [value]="cat.value">
+            {{ cat.display }}
+        </option>
+    </select>
+</div>

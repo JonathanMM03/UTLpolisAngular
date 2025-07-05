@@ -1,0 +1,13 @@
+.product-image-placeholder img {
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.descripcion-limitada {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* Máximo 4 líneas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

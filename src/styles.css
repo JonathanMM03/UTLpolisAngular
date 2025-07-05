@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --color-primario: #233993;
+    --color-secundario: #64B195;
+    --color-fondo: #F4F4F4;
+  }
+  
+  body {
+    background-color: var(--color-fondo);
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .btn-custom {
+    background-color: var(--color-primario);
+    color: white;
+  }
+  
+  .btn-custom:hover {
+    background-color: var(--color-secundario);
+    color: white;
+  }
+  
+  .navbar-custom {
+    background-color: var(--color-primario);
+  }
+  
+  .footer-custom {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }  
